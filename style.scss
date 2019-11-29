@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap');
+html {
+    font-size: 32pt;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: grey;
+    background-image: url('./images/backgrounds/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card {
+    border-width: 1px;
+    border-style: outset;
+    border-color: rgb(245, 245, 245);
+    box-shadow: 2px 2px 1px rgba(100, 100, 100, 0.3);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    min-width: 40vw;
+    width: 50vw;
+    max-width: 95vw;
+    min-height: 40vh;
+    height: fit-content;
+    max-height: 95vh;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+
+    h1 {
+        font-weight: 700;
+        font-size: 72px;
+        text-align: center;
+        margin: 0 0 30pt 0;
+    }
+
+    p {
+        margin: 20pt 0;
+    }
+}
